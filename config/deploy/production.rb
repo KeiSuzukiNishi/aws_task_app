@@ -54,7 +54,7 @@ server "54.92.104.57",
     roles: %w{web db app},
     ssh_options: {
         user: "ec2-user", # overrides user setting above
-        keys: %w(/home/keisuzuki/.ssh/dic_sample4.pem),
+        keys: %w(~/.ssh/dic_sample4.pem),
         forward_agent: false,
         auth_methods: %w(publickey password)
         # password: "please use keys"
